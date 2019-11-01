@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #f6ad7b;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #f6ad7b;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4b8e8d;
+}
+
+.titleName {
+  color: #f6ad7b;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.topContainer {
+  background-color: #537ec5;
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  background-color: #eafbea;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottomContainer {
+  background-color: #537ec5;
+  padding: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.contactMe {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profileImg {
+  height: 230.688px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.thinkingImg {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.projectImg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.anchor {
+  color: #010038;
+}
+
+.anchorMail {
+  box-shadow: inset 0 1px 0 0 #ffffff;
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+.anchorMail:hover {
+  background: linear-gradient(to bottom, #5eb7b7 5%, #96d1c7 100%);
+  background-color: #5eb7b7;
+}
+
+.copyRight {
+  font-weight: bold;
+  color: white;
+}
+
+.pageBreak{
+  border-style: dotted none none;
+  width: 3%;
+  border-color: grey;
+  border-width: 3px;
+}
